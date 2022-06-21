@@ -11,7 +11,7 @@ public class Person {
 	boolean check(int enteredHeight, double enteredWeight) {
 		height = enteredHeight;
 		weight = enteredWeight;
-		if (height < 90 || height > 200 && weight < 15 || weight > 95) {
+		if (height < 90 || height > 200 || weight < 15 || weight > 95) {
 			System.out.println("Person cannot go on ride");
 			return false;
 

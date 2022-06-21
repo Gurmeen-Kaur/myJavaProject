@@ -14,7 +14,7 @@ public class AmusementRidePark {
 		double enteredWeight = scanner.nextDouble();
 
 		Person person1 = new Person();
-		boolean isTrue = person1.check(enteredHeight, enteredWeight);
+		person1.check(enteredHeight, enteredWeight);
 
 	}
 
